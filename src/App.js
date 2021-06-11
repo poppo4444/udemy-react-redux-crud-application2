@@ -21,7 +21,7 @@ class Counter extends Component {
       <div>
         <div>count: { this.state.count }</div>
         <button onClick={ this.handlePlusButton }> +1 </button>
-        <button onClick={ this.handleMinusButton }>> -1 </button>
+        <button onClick={ this.handleMinusButton }> -1 </button>
       </div>
     )
   }
